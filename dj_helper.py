@@ -85,7 +85,7 @@ second_speed = st.slider(
 )
 
 result = round(
-    (100 / second_speed) * (second_speed - first_speed), 
+    (100 / second_speed) * (first_speed - second_speed), 
     ROUND_VALUE
 )
 if result > 0:

@@ -75,7 +75,7 @@ first_speed = st.slider(
     CHANGE_SPEED
 )
 
-st.markdown("#### Второй трек (на который хочешь свести)")
+st.markdown("#### Второй трек (который хочешь свести)")
 second_speed = st.slider(
     "Second BPM",
     start_bpm,
